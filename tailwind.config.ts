@@ -8,10 +8,21 @@ const config: Config = {
   ],
   theme: {
     extend: {
+      colors: {
+        "green-primary": "#1d3531",
+        "green-actived": "#5d8a83",
+        "green-border": "#2a4b46",
+        "green-btn": "#ccec60",
+        "green-title-cards": "#719d96",
+      },
+      maxWidth: {
+        grid: "77.5rem",
+      },
+      height: {
+        "section-hero": "874px",
+      },
       backgroundImage: {
-        "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
-        "gradient-conic":
-          "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
+        hero: "url('/bg-hero.svg')",
       },
     },
   },
